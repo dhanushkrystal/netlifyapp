@@ -1,0 +1,1 @@
+Add screenshots to assets/images and your resume PDF to assets/resume.

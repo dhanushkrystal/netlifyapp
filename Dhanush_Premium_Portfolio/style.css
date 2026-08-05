@@ -1,0 +1,24 @@
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:Poppins,sans-serif;background:linear-gradient(135deg,#0f172a,#111827);color:#f8fafc}
+nav{max-width:1200px;margin:auto;padding:24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:700;font-size:28px;color:#60a5fa}.menu a{color:#fff;text-decoration:none;margin-left:24px}
+.hero{min-height:100vh;background:radial-gradient(circle at top,#1d4ed8 0,#0f172a 45%)}
+.hero-box{max-width:900px;margin:120px auto;text-align:center;padding:20px}
+.tag{display:inline-block;background:#1e3a8a;padding:8px 16px;border-radius:30px}
+h1{font-size:64px;line-height:1.1;margin:20px 0}
+.lead{font-size:22px;color:#cbd5e1}
+.cta{margin-top:40px}.btn{display:inline-block;background:#3b82f6;color:#fff;text-decoration:none;padding:14px 28px;border-radius:12px;margin:8px;font-weight:600}.outline{background:transparent;border:2px solid #3b82f6}
+.section{max-width:1200px;margin:auto;padding:90px 24px}
+.section h2{text-align:center;color:#60a5fa;margin-bottom:30px;font-size:38px}
+.section>p{text-align:center;max-width:900px;margin:auto;color:#cbd5e1}
+.chips{text-align:center}.chips span{display:inline-block;margin:8px;padding:12px 20px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.1);border-radius:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:30px}
+.card{background:rgba(255,255,255,.08);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:20px;transition:.3s}
+.card:hover{transform:translateY(-8px)}
+.card img{width:100%;height:220px;object-fit:cover;border-radius:12px;margin-bottom:15px}
+.card h3{margin-bottom:8px}
+.list{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:15px}
+.list div{background:#1e293b;padding:18px;border-radius:12px}
+.contact{text-align:center}
+.contact a{color:#60a5fa;text-decoration:none}
+footer{text-align:center;padding:30px;background:#020617;color:#94a3b8}
+@media(max-width:768px){nav{flex-direction:column;gap:15px}.menu a{margin:0 8px}h1{font-size:42px}.lead{font-size:18px}}
