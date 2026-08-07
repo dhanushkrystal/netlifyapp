@@ -499,17 +499,8 @@ html{
     flex-wrap:wrap;
 }
 
-.hero-buttons{
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    flex-wrap: wrap; /* Remove this if you never want them to wrap */
-}
-
-.hero-buttons .btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 220px;
+.view-projects-btn{
+    padding: 14px 24px;
+    width: 160px;
     height: 60px;
 }
